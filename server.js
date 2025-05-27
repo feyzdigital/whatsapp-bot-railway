@@ -7,9 +7,9 @@ create({
   authTimeout: 60,
   headless: true,
   qrTimeout: 0,
-  useChrome: true,
+  useChrome: false, // ✅ Bunu false yapıyoruz
   killProcessOnBrowserClose: true,
-  multiDevice: true
+  multiDevice: true,
 }).then(client => start(client));
 
 function start(client) {
