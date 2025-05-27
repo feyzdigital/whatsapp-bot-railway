@@ -1,0 +1,4 @@
+node_modules/
+session/
+screenshot_*.png
+bot.data.json
